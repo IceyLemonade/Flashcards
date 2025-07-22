@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Flashcards</h1>
+        <div id="flashcard" class="flashcard">
+            <div id="question" class="question"></div>
+            <div id="answer" class="answer"></div>
+        </div>
+        <div class="controls">
+            <button id="showAnswer">Show Answer</button>
+            <button id="nextCard">Next</button>
+        </div>
+        <form id="addCardForm">
+            <input type="text" id="newQuestion" placeholder="New Question" required>
+            <input type="text" id="newAnswer" placeholder="New Answer" required>
+            <button type="submit">Add Card</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
